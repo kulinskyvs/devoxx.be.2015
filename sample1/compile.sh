@@ -1,6 +1,6 @@
 #!/bin/bash 
-mkdir -p mods/helloworld
+mkdir -p mods/hello.world
 
-$JAVA9_HOME/bin/javac -d mods/helloworld \
-        src/helloworld/module-info.java \
-        src/helloworld/com/hello/Main.java
+$JAVA9_HOME/bin/javac -d mods/hello.world \
+        src/hello.world/module-info.java \
+        src/hello.world/com/hello/World.java
