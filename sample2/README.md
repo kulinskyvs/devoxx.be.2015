@@ -35,3 +35,5 @@ Module dependencies demo
  * uncomment statement to copy hello.planet@1.1.jar in compile.sh
  * compile.sh
  * run.sh
+
+ [Jdeps bug](http://bugs.java.com/view_bug.do?bug_id=8068937)

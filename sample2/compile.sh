@@ -49,6 +49,6 @@ printf "\nPacking hello.world...\n"
 $JAVA9_HOME/bin/jar --create --file=mlib/hello.world.jar --main-class=com.hello.World -C mods/hello.world .       
 $JAVA9_HOME/bin/jar --print-module-descriptor --file=mlib/hello.world.jar
 
-# printf "\n============================\n"
- printf "Dependencies of hello.world ...\n"
- $JAVA9_HOME/bin/jdeps -s -cp mlib/hello.planet@1.0.jar mlib/hello.world.jar
+ printf "\n============================\n"
+ printf "Dependencies ....\n"
+ $JAVA9_HOME/bin/jdeps -s mlib/hello.*.jar
