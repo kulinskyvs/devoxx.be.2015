@@ -3,4 +3,5 @@ module hello.planet {
 	//requires hello.galaxy;
 
 	exports com.hello.planet;
+	//exports com.hello.planet to hello.galaxy;
 }
