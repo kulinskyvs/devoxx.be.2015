@@ -13,7 +13,7 @@ Module dependencies demo
  * remove hello.planet@1.0.jar
  * run.sh
 
-* remove "exports public" from hello.world
+* remove "requires public" from hello.planet
  * compile.sh
  * run.sh
 
