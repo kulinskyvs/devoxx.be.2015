@@ -33,7 +33,7 @@ printf "\nPacking hello.planet ...\n"
 $JAVA9_HOME/bin/jar --create --file=mlib/hello.planet@1.0.jar --module-version=1.0 -C mods/hello.planet .
 $JAVA9_HOME/bin/jar --print-module-descriptor --file=mlib/hello.planet@1.0.jar
 #$JAVA9_HOME/bin/jar --create --file=mlib/hello.planet@2.0.jar --module-version=2.0 -C mods/hello.planet .
-#$JAVA9_HOME/bin/jar --create --file=mlib/hello.planet@1.1.jar --module-version=1.0 -C mods/hello.planet .
+#cp mlib/hello.planet@1.0.jar mlib/hello.planet@1.1.jar
 
 
 #hello world

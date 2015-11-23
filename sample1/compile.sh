@@ -1,4 +1,5 @@
 #!/bin/bash 
+rm -rf mods
 mkdir -p mods/hello.world
 
 $JAVA9_HOME/bin/javac -d mods/hello.world \
