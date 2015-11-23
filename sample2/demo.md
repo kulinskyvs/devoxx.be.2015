@@ -1,9 +1,9 @@
 * compile.sh
-** run.sh
+ * run.sh
 * remove "exports" from hello.planet
-** compile.sh
+ * compile.sh
 * remove "requires" from hello.planet
-** run.sh
+ * run.sh
 * compile.sh
-** remove hello.planer@1.0.jar
-** run.sh
+ * remove hello.planer@1.0.jar
+ * run.sh
