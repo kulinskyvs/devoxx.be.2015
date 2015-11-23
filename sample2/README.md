@@ -20,5 +20,5 @@ Module dependencies demo
 * create two different versions of the hello.planet module
  * compile.sh
 
- * copy hello.planet@1.0.jar to hello.planet@1.1.jar
+* copy hello.planet@1.0.jar to hello.planet@1.1.jar
  * run.sh
