@@ -6,3 +6,4 @@ $JAVA9_HOME/bin/jlink --modulepath $JAVA9_HOME/jmods:../sample2/mlib --addmods h
 
 du -sh $JAVA9_HOME
 du -sh hello.world.app
+./hello.world.app/bin/java -listmods
