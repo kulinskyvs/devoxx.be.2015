@@ -3,3 +3,11 @@
 **/classes
 **/*.class
 **/hello.world.app
+
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+*.log
+.idea/
+out/
