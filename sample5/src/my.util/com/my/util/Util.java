@@ -1,15 +1,11 @@
 package com.my.util;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-
 import java.lang.reflect.*;
 
 
 public class Util
 {
-  public static <T> T create(Class<T> fromClass) throws NoSuchMethodException, IllegalAccessException,
-      InvocationTargetException, InstantiationException
+  public static <T> T create(Class<T> fromClass) throws Exception
   {
     //addModuleRead(fromClass);
 
