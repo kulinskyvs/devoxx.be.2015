@@ -16,7 +16,7 @@ Module dependencies demo
  * remove **requires* from *hello.world*
  * compile.sh
 
-* Demostrate **compilation** error when when error exposes public API from another module but doesn't use **requires public**
+* Demostrate **runtime** error when when error exposes public API from another module but doesn't use **requires public**
  * remove **public** from *module.planet*
  * compile.sh
  * run.sh
